@@ -1,0 +1,12 @@
+<form asp-controller="Presentacion" asp-action="Contacto" method="post">
+    <div>
+        <label for="">Mensaje</label>
+        <input type="text" name="mensaje" class="form-control">
+    </div>
+    <button class="btn btn-primary">Enviar</button>
+    
+    <p class="form-control btn-secondary">@ViewData["Mensaje"]</p>
+</form>
+
+
+
